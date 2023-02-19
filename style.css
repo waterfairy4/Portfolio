@@ -110,10 +110,10 @@ header>.aboutme{
 main>.websites{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    padding:2rem;
+    padding:4rem;
 }
 main>.websites>.website{
-    padding:2rem;
+    padding:3rem;
     text-align: center;
 }
 main>.websites>.website>img{
