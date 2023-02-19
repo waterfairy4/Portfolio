@@ -37,8 +37,7 @@ nav{
      /* justify-content:space-around;    for website view */
      justify-content: space-around;
      align-items: center;
-     padding:1rem;
-    
+     padding:1rem;   
 }
 nav>ul{
     list-style-type: none;
@@ -70,26 +69,22 @@ nav>a>img.logo{
     height: auto;
     /* height:auto; */
     /* padding-top:1rem; */
-   
 }
 nav>a>img.menu{
     width: 100%;
     max-height: 4rem; 
-    width: auto;
-    
+    width: auto;   
     /* min-width: 7rem; */
     /* max-height: 4rem; */
 }
 header{
     display:flex;
-    flex-direction: row;
-    
+    flex-direction: row;  
 }
 header>img{
      width: 50%;
     /* max-width: 50rem; */
     height: auto; 
-  
 }
 header>.aboutme{
      /* width: 100%;  */
@@ -105,7 +100,6 @@ header>.aboutme{
    text-align: center;
    justify-content: center;
    gap:3rem;
-
 }
 main>.websites{
     display:grid;
@@ -121,7 +115,6 @@ main>.websites>.website>img{
     max-width: 40rem;
     height: auto;
 }
-
 main>.booking{
     /* background-size: 100% auto; */
     /* background-size:cover;
@@ -148,9 +141,7 @@ main>.booking>h3>a{
  }
 footer{
     /* background-color:#667359;  */
-    background-color: #aa814f;
-   
-   
+    background-color: #aa814f;  
 }
 footer>.ad{
     display:flex;
@@ -164,8 +155,6 @@ footer>.ad>.audiotrainingwriting{
     text-align: center;
     justify-content: center;
 }
-
-
  footer>.lastwords{
     display:flex;
     flex-direction: row;
@@ -195,8 +184,6 @@ button{
     box-shadow: #aa814f;
     font-weight: bold;
 }
-
-
 @media (min-width:481px){
      nav>a>img.menu{
         display:none;
