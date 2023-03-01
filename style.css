@@ -12,7 +12,13 @@ body{
    background-color: #f7f4f2; 
    /* background-color: #e6e2d3; */
    color: #ca6b2c;
+   /* padding-top:20px; */
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
  h1{
     font-size:3rem;
 }
@@ -38,6 +44,9 @@ nav{
      justify-content: space-around;
      align-items: center;
      padding:1rem;
+     overflow: hidden;
+     background-color: #f7f4f2;
+     /* background-color: rgb(234, 234, 223); */
 }
 nav>ul{
     list-style-type: none;
